@@ -1,0 +1,166 @@
+html, body {
+  font-family: 'Vollkorn', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.about h2 {
+  color: #2a2b2b;
+}
+
+.about h3 {
+  color: #5d5d5e;
+}
+
+.about {
+  height: 400px;
+  text-align: center;
+
+}
+
+.about .about-text {
+  font-size: 30px;
+  margin-top: 15%;
+}
+
+.active {
+  color: blue;
+}
+
+.bg-color {
+  background-color: black;
+  color: white;
+}
+
+.center {
+  line-height: 700px;
+}
+
+.display {
+
+  visibility: hidden;
+}
+
+.display-nav {
+  display: none;
+  z-index: 1;
+}
+
+.drop-down {
+  position: relative;
+
+}
+
+.drop-down ul {
+  background-color: black;
+  height: 300px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.drop-down ul li {
+  margin: 10px;
+  padding: 3px
+}
+
+.header-nav {
+  background: url("slide/image1.jpg") no-repeat center;
+  background-size: cover;
+  height: 800px;
+  font-size: 40px;
+  margin: 0;
+  min-height: 200px;
+  opacity: 0.8;
+}
+
+.header-nav p {
+  color: #f9f9f9;
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.info-container .info hr {
+  width: 50%
+}
+
+.info-container .info {
+  background-color: #1b64e7;
+  color: #fff;
+  height: 500px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  margin-left: 30px;
+  margin-top: 10px;
+  position: relative;
+  z-index: -1;
+}
+
+
+.image img {
+  max-width: 500px;
+}
+
+.image .inner-text {
+  background-color: white;
+  height: 300px;
+  margin-top: 3%;
+  margin-left: 9%;
+  opacity: 0.7;
+  position: absolute;
+  text-align: center;
+  width: 400px;
+}
+
+
+.nav {
+  width: 100%;
+  position: fixed;
+}
+
+.nav .right, .left{
+  display: inline-block;
+}
+
+.nav .right {
+  float: right;
+}
+
+.opacity-color {
+  background-color: blue;
+}
+
+.space {
+  color: #7f8082;
+  font-size: 30px;
+  text-align: center;
+}
+
+#onImage {
+  text-align: center;
+}
+
+#onImage li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 31px;
+}
