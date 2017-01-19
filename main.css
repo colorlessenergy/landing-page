@@ -4,6 +4,15 @@ html, body {
   padding: 0;
 }
 
+footer {
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .about h2 {
   color: #2a2b2b;
 }
@@ -90,7 +99,6 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 
 .info-container .info hr {
@@ -106,6 +114,8 @@ html, body {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  margin: 10px 0;
+
 }
 
 .image {
@@ -145,8 +155,17 @@ html, body {
   float: right;
 }
 
+.main-text {
+  font-size: 30px;
+}
+
 .opacity-color {
   background-color: blue;
+}
+
+
+.social-media li {
+  display: inline-block;
 }
 
 .space {
