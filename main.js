@@ -6,7 +6,6 @@ var navBgColor = document.getElementsByClassName("nav")[0];
 var activeList = document.querySelectorAll("ul#onImage li");
 var gallery = document.querySelectorAll(".event");
 var counter = 2;
-
 dropDownButton.addEventListener("click", function () {
   dropDownMenu.classList.toggle("display-nav");
   dropDownMenu.classList.toggle("bg-color");
